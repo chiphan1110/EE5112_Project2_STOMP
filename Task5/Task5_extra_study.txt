@@ -1,0 +1,28 @@
+Task 5 extra study (11-Nov-2026 17:24:33)
+
+Part 1: Scenario C, seeds 0-5, without and with the constraint (w = 100)
+  C_kitchen_shelf      seed 0  w 100  constraint 0 | iterations 46           collision 0 | max alignment error  24.75 deg, mean 12.59 deg | at limit 0, final obstacle cost 0.000, last |dQ| [2.401 1.045 1.68 1.176 0.001]
+  C_kitchen_shelf      seed 0  w 100  constraint 1 | iterations 97           collision 0 | max alignment error   0.41 deg, mean  0.16 deg | at limit 0, final obstacle cost 0.000, last |dQ| [10.917 3.716 0.247 2.759 0.037]
+  C_kitchen_shelf      seed 1  w 100  constraint 0 | iterations [151 63]     collision 0 | max alignment error  17.91 deg, mean  8.48 deg | at limit 0, final obstacle cost 0.000, last |dQ| [1.494 0.341 0.007 2.37 0.002]
+  C_kitchen_shelf      seed 1  w 100  constraint 1 | iterations [151 91]     collision 0 | max alignment error   0.50 deg, mean  0.21 deg | at limit 0, final obstacle cost 0.000, last |dQ| [11.685 20.147 4.566 3.357 0.089]
+  C_kitchen_shelf      seed 2  w 100  constraint 0 | iterations 55           collision 0 | max alignment error  24.87 deg, mean 12.25 deg | at limit 0, final obstacle cost 0.000, last |dQ| [1.051 0.002 0.639 0.135 0.001]
+  C_kitchen_shelf      seed 2  w 100  constraint 1 | iterations 151          collision 0 | max alignment error   0.38 deg, mean  0.20 deg | at limit 1, final obstacle cost 0.000, last |dQ| [7.487 8.184 8.61 2.548 5.48]
+  C_kitchen_shelf      seed 3  w 100  constraint 0 | iterations 87           collision 0 | max alignment error   5.36 deg, mean  2.95 deg | at limit 0, final obstacle cost 0.000, last |dQ| [3.007 1.354 1.868 1.863 0.001]
+  C_kitchen_shelf      seed 3  w 100  constraint 1 | iterations 151          collision 0 | max alignment error   0.34 deg, mean  0.21 deg | at limit 1, final obstacle cost 0.000, last |dQ| [3.501 1.638 3.682 1.278 3.897]
+  C_kitchen_shelf      seed 4  w 100  constraint 0 | iterations 76           collision 0 | max alignment error  21.86 deg, mean 10.48 deg | at limit 0, final obstacle cost 0.000, last |dQ| [1.202 4.151 0.865 2.485 0.001]
+  C_kitchen_shelf      seed 4  w 100  constraint 1 | iterations 119          collision 0 | max alignment error   0.88 deg, mean  0.45 deg | at limit 0, final obstacle cost 0.000, last |dQ| [10.065 1.277 11.204 8.524 0.015]
+  C_kitchen_shelf      seed 5  w 100  constraint 0 | iterations [151 111]    collision 0 | max alignment error  29.12 deg, mean 13.40 deg | at limit 0, final obstacle cost 0.000, last |dQ| [0.188 0.002 0.001 0.179 0.001]
+  C_kitchen_shelf      seed 5  w 100  constraint 1 | iterations [151 151]    collision 0 | max alignment error   1.11 deg, mean  0.68 deg | at limit 1, final obstacle cost 0.000, last |dQ| [2.721 4.492 2.688 2.339 16.723]
+
+Part 2: Scenario C, seed 0, weight sweep (w = 100 is in part 1)
+  C_kitchen_shelf      seed 0  w 1    constraint 1 | iterations 45           collision 0 | max alignment error   7.03 deg, mean  3.00 deg | at limit 0, final obstacle cost 0.000, last |dQ| [0.023 4.673 0.837 3.284 0.052]
+  C_kitchen_shelf      seed 0  w 3    constraint 1 | iterations 61           collision 0 | max alignment error   0.95 deg, mean  0.39 deg | at limit 0, final obstacle cost 0.000, last |dQ| [0.394 0.748 0.261 0.193 0.042]
+  C_kitchen_shelf      seed 0  w 10   constraint 1 | iterations 59           collision 0 | max alignment error   0.42 deg, mean  0.21 deg | at limit 0, final obstacle cost 0.000, last |dQ| [0.908 1.831 1.351 1.349 0]
+  C_kitchen_shelf      seed 0  w 30   constraint 1 | iterations 97           collision 0 | max alignment error   0.38 deg, mean  0.17 deg | at limit 0, final obstacle cost 0.000, last |dQ| [3.2 1.771 0.187 1.129 0.055]
+  C_kitchen_shelf      seed 0  w 300  constraint 1 | iterations 151          collision 0 | max alignment error   0.25 deg, mean  0.18 deg | at limit 1, final obstacle cost 0.000, last |dQ| [22.997 23.049 7.193 4.742 12.511]
+
+Part 3: Scenarios A and B, seed 0, with the constraint
+  A_cluttered_table    seed 0  w 100  constraint 1 | iterations 51           collision 0 | max alignment error   1.46 deg, mean  0.75 deg | at limit 1, final obstacle cost 7.917, last |dQ| [7.747 7.857 8.935 0.977 23.272]
+  B_wall_and_ceiling   seed 0  w 100  constraint 1 | iterations 51           collision 0 | max alignment error   1.67 deg, mean  0.86 deg | at limit 1, final obstacle cost 2.905, last |dQ| [7.948 7.271 6.96 11.436 21.272]
+
+Runs that stopped at the iteration limit: 6. Of these: final obstacle cost > 0 in 2; last |dQ| > 0.1 in 6.

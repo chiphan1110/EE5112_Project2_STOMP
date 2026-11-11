@@ -1,0 +1,26 @@
+==== Task 3 verification (11-Nov-2026 14:19:36) ====
+
+UR5 dimensions read from the model (m): L1=0.4250 L2=0.3923 W1=0.1091 W2=0.0823 H1=0.0892 H2=0.0946
+Lecture M vs model zero-pose tool0: max abs diff = 9.79e-12
+
+Screw axes derived by computeScrewAxes (columns = joints 1..6; rows = wx wy wz vx vy vz):
+         0         0         0         0         0         0
+         0    1.0000    1.0000    1.0000         0    1.0000
+    1.0000         0         0         0   -1.0000         0
+         0   -0.0892   -0.0892   -0.0892   -0.1092    0.0055
+         0         0         0         0    0.8173         0
+         0         0    0.4250    0.8173         0    0.8173
+
+max |B - C| (zero-pose geometry vs matrix log) = 3.33e-16
+max |B - A| (zero-pose geometry vs lecture table) = 9.79e-12
+max |C - A| = 9.79e-12
+
+PoE vs getTransform over 1000 random configurations:
+  joint positions X : max abs error = 8.95e-16
+  all 7 frames T    : max abs error = 8.95e-16   (includes orientation)
+  PoE vs library FKinSpace (end-effector) : 1.20e-15
+  zero configuration: |T_ee - M| = 0.00e+00
+
+Prismatic-joint test (R-P-R robot, 200 random configs): end-effector max abs error = 2.36e-16
+
+Time per forward-kinematics call: getTransform 1.054 ms | PoE 0.054 ms | speed-up 19.4x

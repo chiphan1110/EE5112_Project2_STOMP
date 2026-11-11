@@ -1,0 +1,5 @@
+==== Task 3 (PoE) vs Task 2 (getTransform), both rng(0)  (11-Nov-2026 14:22:03) ====
+Task 2 (getTransform): iterations = 11, final cost Q = 10.8361, in collision = 0, STOMP planning time = 4.42 s
+Task 3 (PoE)         : iterations = 11, final cost Q = 10.8361, in collision = 0, STOMP planning time = 0.44 s
+max |theta(Task3) - theta(Task2)| = 0.00e+00 rad
+planning speed-up (Task 2 time / Task 3 time) = 10.0x

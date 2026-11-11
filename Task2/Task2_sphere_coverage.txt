@@ -1,0 +1,8 @@
+Task 2 sphere-coverage test (11-Nov-2026 17:20:52)
+Planned path (rng(0)): isTrajectoryInCollision = 0, min true mesh-to-box separation = 0.0457 m
+Random configurations (rng(1)): N = 1500
+  real mesh collisions (checkCollision): 258
+  missed by the spheres (real collision, sphere clearance > 0): 13 (5.0% of real collisions)
+  of which the spheres report clearance > 5 cm: 0
+  worst miss (largest sphere clearance among real collisions): 0.0221 m
+  spheres report contact (clearance <= 0) but meshes > 5 cm apart: 0

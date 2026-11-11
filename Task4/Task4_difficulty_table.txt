@@ -1,0 +1,9 @@
+Task 4 difficulty table (rng(0) run per scenario), 11-Nov-2026 15:05:40
+
+           scenario           nObstacles    collWp_of20    obstCost0    attempts    iterations    collisionFree    planTime_s    minClear_m    maxDev_m
+    ______________________    __________    ___________    _________    ________    __________    _____________    __________    __________    ________
+
+    {'A_cluttered_table' }        4             14          293.16         1            25            true          0.98497       0.020106     0.42972 
+    {'B_wall_and_ceiling'}        3              5          46.357         1            12            true          0.53618       0.032045     0.14705 
+    {'C_kitchen_shelf'   }        5              7          257.88         1            46            true           3.0087       0.034002     0.34158 
+
