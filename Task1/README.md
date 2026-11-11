@@ -70,7 +70,7 @@ Set these variables **before** running `KINOVA_STOMP_Path_Planning`:
 |---|---|
 | `Task1_path_overlay.png` | Robot at 7 waypoints of the initial guess (left) and the STOMP path (right); poses in collision drawn in red |
 | `Task1_cost.png` | Total cost per iteration, from the initial guess (iteration 0) to convergence |
-| `KinvaGen3_Training.mp4` | Path after selected iterations (here 1, 5 and 10) |
+| `KinvaGen3_Training.mp4` | Path after every iteration (1 to 10) |
 | `KinvaGen3_planned_path.mp4` | Final path, waypoint by waypoint |
 | `Theta_nDisc20_nPaths_20.mat` | Final path `theta` (7 joints x 20 waypoints) |
 

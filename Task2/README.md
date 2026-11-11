@@ -73,7 +73,7 @@ robot from `loadrobot`:
 | `Task2_cost.png` | Total cost per iteration (iteration 0 = initial guess) |
 | `Task2_spheres.png` | The 35 collision spheres on the UR5: start pose and the waypoint with the smallest sphere clearance |
 | `Task2_sphere_coverage.txt` | Result of the sphere-coverage test |
-| `UR5_Training.mp4` | Path after selected iterations (here 1, 5 and 11) |
+| `UR5_Training.mp4` | Path after every iteration (1 to 11) |
 | `UR5_planned_path.mp4` | Final path, waypoint by waypoint |
 | `Theta_UR5_nDisc20_nPaths_20.mat` | Final path `theta` (6 joints x 20 waypoints) |
 

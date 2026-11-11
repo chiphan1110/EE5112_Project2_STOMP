@@ -160,10 +160,10 @@ if enableVideoTraining == 1
     nTraining = length(theta_animation_tmp);
     % (the sample looped k = 0:5:nTraining and read theta_animation_tmp{k+1}, which goes one past
     %  the end when nTraining is a multiple of 5.) Now a few iterations are shown, always the
-    %  first and the last: all if nTraining <= 5, otherwise every 5th/10th/20th/25th/50th
-    %  iteration (the smallest step that shows at most 8), e.g. 10 -> 1,5,10; 70 -> 1,10,...,70.
+    %  first and the last: all if nTraining <= 10, otherwise every 5th/10th/20th/25th/50th
+    %  iteration (the smallest step that shows at most 8), e.g. 10 -> 1,...,10; 70 -> 1,10,...,70.
     showIters = 1:nTraining;
-    if nTraining > 5
+    if nTraining > 10
         for step = [5 10 20 25 50 100]
             showIters = unique([1, step:step:nTraining, nTraining]);
             if numel(showIters) <= 8, break; end
