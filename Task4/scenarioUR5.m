@@ -35,7 +35,8 @@ switch id
         % A wall stands between the robot and the goal, and a ceiling plate hangs above it,
         % leaving a 35 cm horizontal slot (z 0.20-0.55). The arm must reach OVER the wall and
         % UNDER the ceiling, then down behind the wall. The wall is too long to go round
-        % (its ends are beyond the UR5's reach) and a table below stops going underneath.
+        % (its ends, at y = +-0.70, are about 0.86 m from the base, at the edge of the UR5's reach)
+        % and a table below stops going underneath.
         % (A first design with the gap at the wall's near end was infeasible: that space is
         %  occupied by the robot's own upper arm. Without a table the arm also dived below z = 0.)
         sc.name = 'B_wall_and_ceiling';

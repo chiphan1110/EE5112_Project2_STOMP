@@ -16,7 +16,8 @@ ek = cell(1,nSamplePaths);
 
 theta_paths = cell(1, nSamplePaths);
 mu=zeros(1,length(sigma));
-% inv() leaves tiny asymmetries; mvnrnd needs an exactly symmetric covariance
+% Precaution only: make the covariance exactly symmetric before mvnrnd.
+% (Rinv is already exactly symmetric here, and mvnrnd works without this line.)
 sigma = (sigma + sigma')/2;
 
 %% Complete code of independent sampling for each joint
