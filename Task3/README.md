@@ -49,7 +49,7 @@ The planner records no videos by default, because the path is identical to Task 
 |---|---|
 | `verify_task3.m` | Checks the screw axes three ways (lecture table, `computeScrewAxes`, matrix logarithm), compares PoE with `getTransform` on 1000 random configurations and with `FKinSpace`, tests a prismatic joint, and times both methods |
 | `compare_task2_task3.m` | Runs the Task 2 and Task 3 planners with the same seed and compares path, cost and planning time |
-| `plot_screw_axes.m` | UR5 at the zero configuration with the screw axes as arrows, and a table of `S_k` and `M` |
+| `plot_screw_axes.m` | UR5 at the zero configuration with the six screw axes as arrows and the base frame {s} (the values of `S_k` and `M` are printed by `verify_task3.m`) |
 | `mr_library/` | *Modern Robotics* functions (`FKinSpace`, `MatrixLog6`, ...), MIT License. Used only by `verify_task3.m` |
 
 ### Planner
